@@ -1,0 +1,41 @@
+=============== Feb 17, 2019 (IST) ===============
+14:40:16.538137 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:40:16.607198 db@open opening
+14:40:16.609489 version@stat F·[] S·0B[] Sc·[]
+14:40:16.640783 db@janitor F·2 G·0
+14:40:16.640877 db@open done T·33.581302ms
+=============== Feb 17, 2019 (IST) ===============
+14:42:32.116360 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:42:32.116729 version@stat F·[] S·0B[] Sc·[]
+14:42:32.116754 db@open opening
+14:42:32.116870 journal@recovery F·1
+14:42:32.122725 journal@recovery recovering @1
+14:42:32.164725 memdb@flush created L0@2 N·11 S·724B "H;\xa3..hk\xa2,v5":"\xbf\x9bg..\xe5r7,v2"
+14:42:32.170205 version@stat F·[1] S·724B[724B] Sc·[0.25]
+14:42:32.249283 db@janitor F·3 G·0
+14:42:32.249360 db@open done T·132.584202ms
+14:45:40.362873 db@close closing
+14:45:40.363057 db@close done T·174.789µs
+=============== Feb 17, 2019 (IST) ===============
+14:46:49.045671 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:46:49.045797 version@stat F·[1] S·724B[724B] Sc·[0.25]
+14:46:49.045806 db@open opening
+14:46:49.045854 journal@recovery F·1
+14:46:49.056643 journal@recovery recovering @3
+14:46:49.091554 memdb@flush created L0@5 N·2 S·238B "Dat..ion,v13":"Las..der,v14"
+14:46:49.093752 version@stat F·[2] S·962B[962B] Sc·[0.50]
+14:46:49.183088 db@janitor F·4 G·0
+14:46:49.183123 db@open done T·137.306297ms
+14:57:09.560272 db@close closing
+14:57:09.560361 db@close done T·88.122µs
+=============== Feb 17, 2019 (IST) ===============
+14:58:43.201484 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:58:43.201612 version@stat F·[2] S·962B[962B] Sc·[0.50]
+14:58:43.201619 db@open opening
+14:58:43.201654 journal@recovery F·1
+14:58:43.203169 journal@recovery recovering @6
+14:58:43.498885 memdb@flush created L0@8 N·2351 S·126KiB "\t\x8a\x83..\xf4>\x94,v2352":"\xec\x920..'\xdf\xf9,v2363"
+14:58:43.505849 version@stat F·[3] S·127KiB[127KiB] Sc·[0.75]
+14:58:43.601298 db@janitor F·5 G·0
+14:58:43.601448 db@open done T·399.734961ms
+14:58:43.676657 table@compaction L0·3 -> L1·0 S·127KiB Q·2368

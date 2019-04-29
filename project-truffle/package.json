@@ -1,0 +1,19 @@
+{
+  "name": "projecttruffle1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+   "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.3.0",
+    "mocha": "^5.2.0",
+    "web3": "^1.0.0-beta.37"
+  }
+}

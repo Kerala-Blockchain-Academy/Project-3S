@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Scholarship</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <link rel="stylesheet" text="text/css" href="./stylesheets/style.css">
+    
+        
+
+    </head>
+    <body>
+
+      <header>
+        <h1> Students Scholarship Scheme (3S)  </h1><br><br>
+        </header>
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+
+        
+
+
+        <form action="/home" method="POST">
+
+          <h2>Enter Register Details</h2>
+          Enter User Ethereum Address:<br><input type="text" placeholder="Enter  user address" name="coin1" autofocus><br><br>
+          Enter Student Ethereum Address: <br><input type="text"  placeholder="Enter  address" name="name1" autofocus><br><br>
+          Enter Name:<br><input type="text"  placeholder="Enter  name" name="name2" autofocus><br><br>
+          Enter Caste:<br><input type="text"  placeholder="Enter  caste" name="name3" autofocus><br><br><br>
+          
+          <h2>Enter Income Details</h2>
+          
+          Enter Income:<br> <input type="text"  placeholder="Enter  Value" name="name4" autofocus><br><br><br>
+      
+         <h2>Enter Marks Details</h2>
+          
+          Enter Mark1:<br> <input type="text"  placeholder="Enter  Value" name="name5" autofocus><br><br>
+          Enter Mark2:<br> <input type="text"  placeholder="Enter  Value" name="name6" autofocus><br><br>
+          Enter Mark3:<br> <input type="text"  placeholder="Enter  Value" name="name7" autofocus><br><br>
+      
+          <button class="btn btn-danger" type="submit" name="submit">submit</button><br><br><br>
+        
+        </form>
+
+          <form action="/supply" method="POST">
+
+          <h2>Enter Token Supply Details</h2>
+          Enter User Ethereum Address:<br><input type="text" placeholder="Enter  user address" name="coin2" autofocus><br><br> 
+          Enter To Ethereum Address:<br> <input type="text"  placeholder="Enter  address" name="name8" autofocus><br><br>
+          Enter No of Tokens:<br> <input type="text"  placeholder="Enter  Value" name="name9" autofocus><br><br><br>
+         <button class="btn btn-danger" type="submit" name="submit">submit</button><br><br>
+      </form>
+
+      
+</div>
+
+
+<div class="col-md-6">
+
+    <form action="/transfer" method="POST">
+
+      <h2>Enter Token Transfer Details</h2>
+      Enter User Ethereum Address:<br><input type="text" placeholder="Enter  user address" name="coin3" autofocus><br><br> 
+      Enter From Ethereum Address:<br> <input type="text"  placeholder="Enter  address" name="name10" autofocus><br><br>
+      Enter To Ethereum Address:<br> <input type="text"  placeholder="Enter  address" name="name11" autofocus><br><br>
+      Enter No of Tokens:<br> <input type="text"  placeholder="Enter  Value" name="name12" autofocus><br><br>
+      <button class="btn btn-primary" type="submit" name="submit">submit</button><br><br>
+     
+     </form>
+        
+        <form action="/details" method="POST">
+            
+          <h2>Get Student Details</h2>
+          
+          Enter Student Ethereum Address:<br> <input type="text"  placeholder="Enter  address" name="name13" autofocus><br><br>
+          
+          <button class="btn btn-primary" type="submit" name="submit">submit</button><br><br>
+        
+        </form>
+          
+        <form action="/balance" method="POST">
+
+          <h2>Get Balance Details</h2>
+          
+          Enter Ethereum Address:<br> <input type="text"  placeholder="Enter  address" name="name14" autofocus><br><br>
+  
+          <button class="btn btn-primary" type="submit" name="submit">submit</button><br><br>
+
+          </form>
+          
+
+      
+      </div>
+</div>
+</div>
+<footer>
+  <h3>----------All Rights Reserved To Ministry of Education Kerala---------</h3> 
+</footer>
+
+
+</body>
+</html>

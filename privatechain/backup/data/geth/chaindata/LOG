@@ -1,0 +1,41 @@
+=============== Feb 17, 2019 (IST) ===============
+15:18:23.035864 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:18:23.086321 db@open opening
+15:18:23.088678 version@stat F·[] S·0B[] Sc·[]
+15:18:23.128427 db@janitor F·2 G·0
+15:18:23.128532 db@open done T·42.121668ms
+=============== Feb 17, 2019 (IST) ===============
+15:18:35.039907 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:18:35.040002 version@stat F·[] S·0B[] Sc·[]
+15:18:35.040008 db@open opening
+15:18:35.040037 journal@recovery F·1
+15:18:35.041611 journal@recovery recovering @1
+15:18:35.092886 memdb@flush created L0@2 N·11 S·724B "H;\xa3..hk\xa2,v5":"\xbf\x9bg..\xe5r7,v2"
+15:18:35.099261 version@stat F·[1] S·724B[724B] Sc·[0.25]
+15:18:35.185319 db@janitor F·3 G·0
+15:18:35.185385 db@open done T·145.360565ms
+=============== Feb 17, 2019 (IST) ===============
+15:18:52.684251 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:18:52.684358 version@stat F·[1] S·724B[724B] Sc·[0.25]
+15:18:52.684364 db@open opening
+15:18:52.684400 journal@recovery F·1
+15:18:52.685904 journal@recovery recovering @3
+15:18:52.749430 memdb@flush created L0@5 N·1 S·216B "Las..der,v13":"Las..der,v13"
+15:18:52.754951 version@stat F·[2] S·940B[940B] Sc·[0.50]
+15:18:52.850532 db@janitor F·4 G·0
+15:18:52.850667 db@open done T·166.224001ms
+15:18:52.925387 memdb@flush N·1 S·50B
+15:18:52.958878 memdb@flush created L0@9 N·1 S·216B "Las..der,v15":"Las..der,v15"
+15:18:52.959011 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+15:18:52.992167 memdb@flush committed F·1 T·66.705777ms
+15:18:52.992324 journal@remove removed @6
+15:18:52.992416 table@compaction range L-1 "":""
+15:18:52.992475 table@compaction L0·3 -> L1·0 S·1KiB Q·15
+15:18:53.025802 table@build created L1@10 N·11 S·724B "H;\xa3..hk\xa2,v5":"\xbf\x9bg..\xe5r7,v2"
+15:18:53.025938 version@stat F·[0 1] S·724B[0B 724B] Sc·[0.00 0.00]
+15:18:53.059204 table@compaction committed F-2 S-432B Ke·0 D·2 T·66.648649ms
+15:18:53.059417 table@remove removed @9
+15:18:53.059501 table@remove removed @5
+15:18:53.059569 table@remove removed @2
+15:18:53.059756 db@close closing
+15:18:53.059993 db@close done T·227.962µs
