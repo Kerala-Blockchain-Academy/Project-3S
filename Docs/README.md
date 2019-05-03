@@ -12,7 +12,7 @@ The persons accepting the token "SCHOLAR" from students can go to the exchange c
 
 There are several advantages for this DApp ie the students comes to know about the technology and one of the great advantage is immutable ledger and transparency.   
 
-### Instructions for Installation of Application: ###
+## Instructions for Installation of Application: ##
 
 1. Download the folder "Dapp"
 2. Open Terminal from the Dapp folder and give command,
@@ -39,7 +39,7 @@ npm start
 13. Note: Check the UI flow chart to follow the steps to be taken while using UI
 
 
-#### Alternate Method for Installation and using Dapp using truffle ####
+### Alternate Method for Installation and using Dapp using truffle ###
 
 1. Download the folder "Dapp"
 2. Open Terminal from the dapp folder and give command,
