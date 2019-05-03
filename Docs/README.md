@@ -1,27 +1,18 @@
 
+# 3S- STUDENT SCHOLARSHIP SCHEME #
 
-						   3S- STUDENT SCHOLARSHIP SCHEME
-
-
-Description: 
-
-
-This is a D-app example on a private ethereum network that creates a decentralized platform for distribution of scholarship.
+This is a DApp example on a private ethereum network that creates a decentralized platform for distribution of scholarship.
 
 The platform connects students, educators, and service providers where, together, they develop and engage in personal and group, in-person educational programs and various businesses.
 
-Currently the D-app is designed for kerala state Educational Ministry. 
-
-This D-app helps to determine the scholarship awarded for each student in kerala who has attended the SSLC and Plus Two Exams.
+This DApp helps to determine the scholarship awarded for each student in kerala who has attended the SSLC and Plus Two Exams.
 Accordingly students will be awarded Scholarship and token "SCHOLAR" which they can use it for various purposes like buying uniforms,books and various other educational goods.
 
 The persons accepting the token "SCHOLAR" from students can go to the exchange created by the ministry of Education Kerala and can exchange it with fiat currency(Indian Rupee).
 
-There are several advantages for this dapp ie the students comes to know about the technology and one of the great advantage is immutable ledger and transparency.   
+There are several advantages for this DApp ie the students comes to know about the technology and one of the great advantage is immutable ledger and transparency.   
 
-
-
-Instructions for Installation of Application:
+### Instructions for Installation of Application: ###
 
 1. Download the folder "Dapp"
 2. Open Terminal from the Dapp folder and give command,
@@ -48,7 +39,7 @@ npm start
 13. Note: Check the UI flow chart to follow the steps to be taken while using UI
 
 
-Alternate Method for Installation and using Dapp using truffle
+#### Alternate Method for Installation and using Dapp using truffle ####
 
 1. Download the folder "Dapp"
 2. Open Terminal from the dapp folder and give command,
@@ -77,7 +68,7 @@ npm start
 13. And you can use signing transaction via metamask if required.
 14. Note: Check the UI flow chart to follow the steps to be taken while using UI.
 
-Method for Testing the smart Contract with truffle.
+#### Method for Testing the smart Contract with truffle. ####
 
 1. Download the folder "project-truffle" and go to terminal from that folder and give command
 ```
